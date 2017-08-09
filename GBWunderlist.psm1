@@ -279,11 +279,3 @@ function TryInvokeWebRequest
         throw $_.Exception.Message + " " + $_.ErrorDetails
     }
 }
-
-Export-ModuleMember -Function Get-WunderlistList
-Export-ModuleMember -Function Get-WunderlistTask
-Export-ModuleMember -Function Get-WunderlistSubTask
-Export-ModuleMember -Function Get-WunderlistNote
-Export-ModuleMember -Function Get-WunderlistFile
-
-Export-ModuleMember -Function Set-WunderlistPermissionHeaders
