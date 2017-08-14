@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Version 5
+Set-StrictMode -Version 5
 
 $LIST_URL = "a.wunderlist.com/api/v1/lists"
 $TASK_URL = "a.wunderlist.com/api/v1/tasks"
