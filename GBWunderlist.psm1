@@ -50,7 +50,6 @@ function Get-WunderlistList
     EnsurePermissionHeadersNotNull
 
     $listUrl = $LIST_URL
-
     if ($Id) {
         $listUrl = "$listUrl/$Id"
     }
